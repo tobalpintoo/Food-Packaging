@@ -1,0 +1,168 @@
+
+.navbar {
+    background-color: #FFFFFF;
+}
+.navbar-brand img {
+    height: 100px;
+}
+.nav-link {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.btn-contacto {
+    background-color: rgb(87, 146, 206);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 25px !important;
+}
+
+/* Estilos del header */
+.carousel-item {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption {
+    background: rgba(0, 51, 102, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-contacto:hover {
+    background-color: rgb(220, 219, 219);
+}
+
+.carousel {
+    border-bottom: 15px solid #007bff;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px; /* Espacio entre el texto y la barra */
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px; /* Grosor de la barra */
+    background-color: #007bff; /* Color de la barra */
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Hace que la barra aparezca al pasar el mouse */
+}
+
+.title-productos {
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+}
+
+.title-productos::after {
+    content: "";
+    display: block;
+    width: 100%; /* Controla el ancho de la barra */
+    height: 4px; /* Grosor de la barra */
+    background-color: #007bff; /* Color de la barra */
+    margin: 4px auto 0; /* Margen superior y centrado */
+}
+
+/* CARDS PRODUCTOS */
+
+.category-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card img {
+    max-width: 150px; 
+    height: auto;
+}
+
+.category-card h5 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.span1{
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+/* SECCION QUIENES SOMOS */
+
+
+.nosotros {
+    padding: 90px 40px;
+}
+
+.sobre-top {
+    margin-top: 100px;
+}
+
+
+.title-quienes {
+    display: inline-block;
+    border-bottom: 4px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.caracteristicas {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* SECCION BRINDAMOS */
+
+
+
+.title-brindamos {
+    margin-bottom: 50px;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+}
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    margin: 0 auto 15px;
+}
+.icon-circle i {
+    font-size: 30px;
+    color: #007bff;
+}
+
+.foooter {
+    margin: 0;
+}
+
+.contenedor-footer {
+    margin: 0;
+}
