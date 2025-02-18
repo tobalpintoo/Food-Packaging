@@ -194,18 +194,18 @@
                         <div class="card p-4 shadow-sm">
                             <h3 class="fw-bold">¿Tienes dudas?</h3>
                             <p>Si quieres cotizar con nosotros, completa el siguiente formulario y te contactaremos</p>
-                            <form>
+                            <form action="https://formsubmit.co/cleivapinto1@gmail.com" method="POST">
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Nombre" required>
+                                    <input type="text" class="form-control" name="name" placeholder="Nombre" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                                    <input type="email" class="form-control" name="email" placeholder="Correo Electrónico" required>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="Asunto" required>
+                                    <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" rows="4" placeholder="Ingresa tu mensaje" required></textarea>
+                                    <textarea class="form-control" rows="4" name="message" placeholder="Ingresa tu mensaje" required></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">ENVIAR MENSAJE</button>
                             </form>
