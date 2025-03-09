@@ -12,7 +12,7 @@
     font-size: 18px;
 }
 .btn-contacto {
-    background-color: rgb(87, 146, 206);
+    background-color: rgb(64, 213, 31);
     color: white;
     border-radius: 20px;
     padding: 8px 25px !important;
@@ -25,7 +25,7 @@
     background-position: center;
 }
 .carousel-caption {
-    background: rgba(0, 51, 102, 0.7);
+    background: rgba(5, 90, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
 }
@@ -35,7 +35,7 @@
 }
 
 .carousel {
-    border-bottom: 15px solid #007bff;
+    border-bottom: 15px solid rgb(64, 213, 31);;
 }
 
 .nav-link {
@@ -52,7 +52,7 @@
     bottom: 0;
     width: 0;
     height: 3px; /* Grosor de la barra */
-    background-color: #007bff; /* Color de la barra */
+    background-color: rgb(64, 213, 31); /* Color de la barra */
     transition: width 0.3s ease-in-out;
 }
 
@@ -71,7 +71,7 @@
     display: block;
     width: 100%; /* Controla el ancho de la barra */
     height: 4px; /* Grosor de la barra */
-    background-color: #007bff; /* Color de la barra */
+    background-color: rgb(64, 213, 31); /* Color de la barra */
     margin: 4px auto 0; /* Margen superior y centrado */
 }
 
@@ -103,7 +103,7 @@
 }
 
 .span1{
-    color: #007bff;
+    color: rgb(64, 213, 31);
     font-weight: bold;
 }
 
@@ -122,7 +122,7 @@
 
 .title-quienes {
     display: inline-block;
-    border-bottom: 4px solid #007bff;
+    border-bottom: 4px solid rgb(64, 213, 31);;
     padding-bottom: 5px;
 }
 
@@ -156,7 +156,7 @@
 }
 .icon-circle i {
     font-size: 30px;
-    color: #007bff;
+    color: rgb(64, 213, 31);
 }
 
 .foooter {
@@ -167,7 +167,16 @@
     margin: 0;
 }
 
+.boton-color {
+    background-color: rgb(64, 213, 31);
+}
+
 .iconos {
     margin-top: 5px;
     font-size: 30px;
+    color: rgb(64, 213, 31);
+}
+
+.footer-color {
+    background-color: rgb(64, 213, 31);;
 }
