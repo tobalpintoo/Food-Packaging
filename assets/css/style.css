@@ -108,6 +108,19 @@
     font-weight: bold;
 }
 
+.efectos{
+    background-color: white;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.efectos:hover{
+    background-color: gray;
+}
+
+.texto-cards span{
+    font-weight: bold;
+}
+
 
 /* SECCION QUIENES SOMOS */
 
