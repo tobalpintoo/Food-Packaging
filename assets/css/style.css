@@ -85,6 +85,12 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    min-height: 340px; /* Altura mínima para uniformidad */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden; /* Oculta el exceso de contenido */
 }
 
 .category-card:hover {
@@ -117,10 +123,22 @@
     background-color: gray;
 }
 
+.texto-cards{
+    padding: 0px;
+    margin: 0px;
+}
+
 .texto-cards span{
     font-weight: bold;
 }
 
+.texto-cards-largo {
+    max-height: 65px; /* Ajusta según lo que necesites */
+    overflow-y: auto;
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: left;
+}
 
 /* SECCION QUIENES SOMOS */
 
